@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/products-filter/static/css/main.cccef3b4.css",
+    "main.js": "/products-filter/static/js/main.aa5e2c7e.js",
+    "static/js/453.83b512fe.chunk.js": "/products-filter/static/js/453.83b512fe.chunk.js",
+    "static/media/12.png": "/products-filter/static/media/12.5bf266fe91045c523aa2.png",
+    "static/media/15.png": "/products-filter/static/media/15.33173335666fdecdde43.png",
+    "static/media/11.png": "/products-filter/static/media/11.0f39f3acf888eeec423e.png",
+    "static/media/9.png": "/products-filter/static/media/9.6262a6ed542cbdeafd74.png",
+    "static/media/10.png": "/products-filter/static/media/10.174c2a12898e32afc096.png",
+    "static/media/4.png": "/products-filter/static/media/4.817827806496a0f5da11.png",
+    "static/media/13.png": "/products-filter/static/media/13.c77835b743174cc29497.png",
+    "static/media/20.png": "/products-filter/static/media/20.cd8fa1d9bf35eb55abd5.png",
+    "static/media/7.png": "/products-filter/static/media/7.a3a2f6a9a09e502c282d.png",
+    "static/media/5.png": "/products-filter/static/media/5.e007f272eff1ed6e4698.png",
+    "static/media/18.png": "/products-filter/static/media/18.0fb83a4fd513cf91a138.png",
+    "static/media/16.png": "/products-filter/static/media/16.a6f93a107da3cd6273f4.png",
+    "static/media/17.png": "/products-filter/static/media/17.523fafb4c959e086225f.png",
+    "static/media/2.png": "/products-filter/static/media/2.a9d1211a758594e6a3e5.png",
+    "static/media/14.png": "/products-filter/static/media/14.a1c5a83517c2690c1679.png",
+    "static/media/1.png": "/products-filter/static/media/1.6e04349bcc78e6946e2b.png",
+    "static/media/3.png": "/products-filter/static/media/3.37fc5b77967ad275967c.png",
+    "static/media/6.png": "/products-filter/static/media/6.58aa7037e523ed1e98b0.png",
+    "static/media/19.png": "/products-filter/static/media/19.ad8e7d213c9f24530be5.png",
+    "static/media/8.png": "/products-filter/static/media/8.38e2344926cacab297c3.png",
+    "index.html": "/products-filter/index.html",
+    "main.cccef3b4.css.map": "/products-filter/static/css/main.cccef3b4.css.map",
+    "main.aa5e2c7e.js.map": "/products-filter/static/js/main.aa5e2c7e.js.map",
+    "453.83b512fe.chunk.js.map": "/products-filter/static/js/453.83b512fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cccef3b4.css",
+    "static/js/main.aa5e2c7e.js"
+  ]
+}
