@@ -1,0 +1,59 @@
+@use "../../styles/abstracts/" as *;
+.filter-wrapper {
+  grid-area: side;
+  padding-top: 25px;
+  padding-inline: 25px;
+  &__title {
+    font-size: clamp(24px, 5vw, 26px);
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+
+  & div:has(h4) {
+    border-top: 2px solid $background-gray;
+  }
+}
+
+.filter-group {
+  padding-block: 15px;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-primary;
+
+      .filter-group__item__count {
+        background-color: $color-primary;
+      }
+    }
+  }
+  &__title {
+    display: inline-block;
+    font-size: clamp(20px, 3vw, 24px);
+    font-weight: 400;
+  }
+  &__item__title {
+    padding: 15px 5px;
+  }
+  &__item__count {
+    background-color: $text-color-muted;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    color: $text-color-white;
+  }
+}
+
+.active {
+  color: $color-primary;
+
+  .filter-group__item__count {
+    background-color: $color-primary;
+  }
+}

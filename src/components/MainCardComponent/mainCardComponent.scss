@@ -1,0 +1,91 @@
+@use "../../styles/abstracts/" as *;
+.main-card-wrapper {
+  grid-area: products;
+  padding-top: 25px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  place-items: start;
+  @include screenSize(laptop) {
+    gap: 1rem;
+  }
+  @include screenSize(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include screenSize(phone) {
+    grid-template-columns: 1fr;
+  }
+}
+.product-card {
+  border: 1px solid $text-color-muted;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(#000000, 0.1);
+  &:hover {
+    border-color: $color-primary;
+    box-shadow: 0px 0px 10px rgba($color-primary, 0.5);
+  }
+  &__img {
+    padding: 20px;
+    display: grid;
+    height: 250px;
+    place-items: center;
+    @include screenSize(laptop) {
+      height: 200px;
+    }
+    @include screenSize(phone) {
+      height: 250px;
+    }
+    & img {
+      transition: all 0.3s ease-in-out;
+      object-fit: cover;
+      scale: 1.1;
+    }
+
+    & img:hover {
+      scale: 1.2;
+      transform: translateY(-20px);
+    }
+  }
+
+  &__info {
+    background-color: $color-primary;
+    padding: 10% 3%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &__title {
+      margin-bottom: 10px;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+
+      font-weight: 400;
+      color: #000000;
+
+      & h3 {
+        font-size: clamp(14px, 7vw, 15px);
+      }
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transition: all 0.2s ease-in-out;
+        scale: (0 1);
+      }
+      &:hover::after {
+        scale: (1 1);
+      }
+    }
+    p {
+      font-size: clamp(13px, 7vw, 15px);
+    }
+  }
+}
