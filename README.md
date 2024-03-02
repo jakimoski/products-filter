@@ -1,5 +1,3 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
 # Bikes products page
 
 Bikes products page is a is a product page for products(bikes) with multiple filters.
@@ -7,11 +5,11 @@ This project is part of the weekly challenges from Brainster Front-End Academy.
 
 ## Demo
 
-Insert gif or link to demo
+To see live preview of the project [Click Here](https://jakimoski.github.io/products-filter/ "Bikes products ")
 
 ## Screenshot
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./screencapture-bikes.jpg)
 
 ## Tech Stack
 
