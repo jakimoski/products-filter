@@ -97,21 +97,21 @@ The Header component is made from three components Logo, Nav and HeaderAction co
 
 -This component is where all product cards are shown, it receives the products as a prop with ProductsList type and renders the products using SingleCardComponent.
 
-```
+```javascript
 type ProductsList = {
-  products: ProductType[];
-}
+  products: ProductType[],
+};
 ```
 
 - **SingleCardComponent** is a component for every single product where the image, name and price are shown that are sent as props from MainCardComponent.
 
-```
+```javascript
 type ProductType = {
-  name: string;
-  price: number;
-  gender: string;
-  brand: string;
-  image: string;
+  name: string,
+  price: number,
+  gender: string,
+  brand: string,
+  image: string,
 };
 ```
 
@@ -121,23 +121,22 @@ type ProductType = {
 
 - The Filter Component is responsible for filtering the products based on category and gender. The component receives props from the main parent with FilterPropsType.
 
-```
+```javascript
 type FilterPropsType = {
-  updateProducts(prev: ProductType[]): void;
-  productsList: ProductType[];
-}
+  updateProducts(prev: ProductType[]): void,
+  productsList: ProductType[],
+};
 ```
 
 - **FilterOptionComponent** is the component for single option for the filer options. It receives props from FilterOptionProps type.
 
-```
+```javascript
 type FilterOptionProps = {
-  category: string;
-  isActive: string;
-  filterProducts: (event: any) => void;
-  filerItemsLength: (name: string) => number;
-}
-
+  category: string,
+  isActive: string,
+  filterProducts: (event: any) => void,
+  filerItemsLength: (name: string) => number,
+};
 ```
 
 ### Footer
